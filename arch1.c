@@ -1,7 +1,16 @@
 #include <stdio.h>
 
-struct char_attr
+/*
+job table:
+	1.rubber
+	2.aristocrat
+	3.warlord
+	4.merchant
+	5.magician
+*/
+struct player_attr
 {
+    int job;
     int money;
     int building[5];
 }
