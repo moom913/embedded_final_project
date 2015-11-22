@@ -2,11 +2,6 @@
 #include <stdbool.h>
 #include <unistd.h>
 #include <string.h>
-char int2string(int i){
-    char s;
-    sprintf(&s, "%d",i);
-    return s;
-}
 
 struct player{
     int job;
@@ -57,8 +52,9 @@ int main(int argc, const char * argv[]) {
             //socket給第i個玩家手牌
             //接回傳值
             //修改原本的牌庫
-            
         }
+        //第二輪行使職業效果
+        
         //判斷城堡數量
         for (i=0; i<3; i++) {
             temp=0;
